@@ -34,24 +34,24 @@
 4.To use your map:
 - Create a new txt file, and customize your own using '0' and '1'.
 - Substitute the file name with the one you created into this line.
-`with open("failedmap.txt") as text:`
+`with open("failedmap.txt") as text:`   
 5.To change the start and goal node:
 - Modify these lines below:
-`entrance_node = (row - 4, 1)`
-`exit_node = (row - 6, col - 2)`
+`entrance_node = (row - 4, 1)`   
+`exit_node = (row - 6, col - 2)`   
 6.To obtain a roughly time cost, you need to commit some lines to avoid unnecessary time cost(visualization) as guided in the code.
 
 ## Screenshots
 
 Here are some screenshots of the results for this project:    
 - For [maze]:   
-![maze case for astar](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/color_test.png)
-![maze case for dijkstra](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_color1.png)   
+![maze case for astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/maze%20case%20for%20astar.png)
+![maze case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/maze%20case%20for%20dijkstra.png)   
 - For [map]:   
-![maze case for astar](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_cloud.png)
-![maze case for dijkstra](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/color_test.png)
+![map case for astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/normal%20case%20for%20astar.png)
+![map case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/normalmap%20case%20for%20dijkstra.png)
 - For [failed case]
-![no path case for star](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_cloud.png)
-![no path case for dijkstra](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/color_test.png)
+![no path case for star](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/failedmap%20for%20astar.png)
+![no path case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/failed%20case%20for%20dijkstra.png)
 
 
