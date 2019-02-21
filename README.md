@@ -44,9 +44,14 @@
 ## Screenshots
 
 Here are some screenshots of the results for this project:    
-- For [Object detection by color filtering]:   
-![color_test image](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/color_test.png)
-![pose_color1 image](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_color1.png)   
-![pose_color2 image](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_color2.png)   
-- For [Object detection by cloud filtering]:   
-![pose_cloud image](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_cloud.png)
+- For [maze]:   
+![maze case for astar](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/color_test.png)
+![maze case for dijkstra](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_color1.png)   
+- For [map]:   
+![maze case for astar](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_cloud.png)
+![maze case for dijkstra](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/color_test.png)
+- For [failed case]
+![no path case for star](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/pose_cloud.png)
+![no path case for dijkstra](https://github.com/Zhanghq8/Kinect2-object-detection/blob/master/color_test.png)
+
+
