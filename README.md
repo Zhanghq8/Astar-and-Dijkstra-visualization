@@ -15,10 +15,8 @@
 ## Description   
 1.A* algorithm     
 - [astar.py].      
-
 2.Dijkstra   
 - [dijkstra].   
-
 3.Maze or map
 - The maze or map is [xxx.txt] file, you can modify it and create a new one(with '0' or '1') to check different results.
 - A basic map looks like this:
