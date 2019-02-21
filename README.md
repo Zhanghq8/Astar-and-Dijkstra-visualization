@@ -10,7 +10,7 @@
 - ROS Kinetic
 - Ubuntu 16.04
 - Python 3(Python 2)
-- tkinter package(https://wiki.python.org/moin/TkInter)
+- Tkinter package(https://wiki.python.org/moin/TkInter)
 
 ## Description   
 1.A* algorithm  
@@ -20,18 +20,26 @@
 - [dijkstra].
 
 3.Maze or map
-- The maze or map is [xxx.txt] file, you can modify it and create a new one(with 0 or 1) to check different results .
+- The maze or map is [xxx.txt] file, you can modify it and create a new one(with '0' or '1') to check different results.
+- A basic map looks like this:
+![map](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/normalmap.txt), where '0' means free space, and '1' means obstacle space.
 
 ## Run
-1.Activate your KInect2 device by running `roslaunch kinect2_bridge kinect2_bridge.launch`.   
-2.For [Object detection by color filtering]:
-- First run `rosrun kinect2_viewer color_test` to tune the HSV value to get the desired result;
-- Substitute the HSV value in [pose_color.cpp] with the new one;
-- Do `catkin_make` in your workspace and then run `rosrun kinect2_viewer pose_color`.   
-
-3.For [Object detection by loud filtering]:
-- First substitute the depth range for your goal;
-- Do `catkin_make` in your workspace and then run `rosrun kinect2_viewer pose_cloud`.
+1.Install [tkinter]:
+- Run `sudo apt-get install python-tk python3-tk`.   
+2.For [Astar]:
+- Run `python astar`.
+3.For [Dijkstra]:
+- Run `python dijkstra`.
+4.To use your map:
+- Create a new txt file, and customize your own using '0' and '1'.
+- Substitute the file name with the one you created into this line.
+`with open("failedmap.txt") as text:`
+5.To change the start and goal node:
+- Modify these lines below:
+`entrance_node = (row - 4, 1)`
+`exit_node = (row - 6, col - 2)`
+6.To obtain a roughly time cost, you need to commit some lines to avoid unnecessary time cost(visualization) as guided in the code.
 
 ## Screenshots
 
