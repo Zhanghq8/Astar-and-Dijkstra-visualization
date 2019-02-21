@@ -24,7 +24,7 @@
 
 ## Run
 1.Install [tkinter]:
-- Run `sudo apt-get install python-tk python3-tk`.   
+- Run `sudo apt-get install python-tk python3-tk`.
 2.For [Astar]:
 - Run `python astar.py`.
 3.For [Dijkstra]:
