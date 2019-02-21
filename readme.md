@@ -24,7 +24,7 @@ dijkstra.py
 3. Maze or map
 - The maze or map is [xxx.txt] file, you can modify it and create a new one(with '0' or '1') to check different results.
 - A basic map looks like this:
-![map](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/normalmap.txt), where '0' means free space, and '1' means obstacle space.
+![map](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/map/normalmap.txt), where '0' means free space, and '1' means obstacle space.
 
 ## Run
 1. Install [tkinter]:
@@ -47,14 +47,14 @@ dijkstra.py
 
 Here are some screenshots of the results for this project:    
 - For [maze]:   
-![maze case for astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/maze%20case%20for%20astar.png)
-![maze case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/maze%20case%20for%20dijkstra.png)   
+![maze case for astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/maze_case_for_astar.png)
+![maze case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/maze_case_for_dijkstra.png)   
 - For [map]:   
-![map case for astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/normal%20case%20for%20astar.png)
-![map case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/normalmap%20case%20for%20dijkstra.png)
+![map case for astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/normal_case_for_astar.png)
+![map case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/normalmap_case_for_dijkstra.png)
 - For [failed case]
-![no path case for star](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/failedmap%20for%20astar.png)
-![no path case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/failed%20case%20for%20dijkstra.png)
+![no path case for star](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/failed_case_for_astar.png)
+![no path case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/failed_case_for_dijkstra.png)
 
 
 
