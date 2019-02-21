@@ -13,31 +13,31 @@
 - Tkinter package(https://wiki.python.org/moin/TkInter)
 
 ## Description   
-1.A* algorithm     
+1. A* algorithm     
 - [astar.py].   
-2.Dijkstra   
+2. Dijkstra   
 - [dijkstra].   
-3.Maze or map
+3. Maze or map
 - The maze or map is [xxx.txt] file, you can modify it and create a new one(with '0' or '1') to check different results.
 - A basic map looks like this:
 ![map](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/normalmap.txt), where '0' means free space, and '1' means obstacle space.
 
 ## Run
-1.Install [tkinter]:
+1. Install [tkinter]:
 - Run `sudo apt-get install python-tk python3-tk`.
-2.For [Astar]:
+2. For [Astar]:
 - Run `python astar.py`.
-3.For [Dijkstra]:
+3. For [Dijkstra]:
 - Run `python dijkstra.py`.   
-4.To use your map:
+4. To use your map:
 - Create a new txt file, and customize your own using '0' and '1'.
 - Substitute the file name with the one you created into this line.
 `with open("failedmap.txt") as text:`   
-5.To change the start and goal node:
+5. To change the start and goal node:
 - Modify these lines below:   
 `entrance_node = (row - 4, 1)`   
 `exit_node = (row - 6, col - 2)`   
-6.To obtain a roughly time cost, you need to commit some lines to avoid unnecessary time cost(visualization) as guided in the code.
+6. To obtain a roughly time cost, you need to commit some lines to avoid unnecessary time cost(visualization) as guided in the code.
 
 ## Screenshots
 
