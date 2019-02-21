@@ -30,13 +30,13 @@
 2.For [Astar]:
 - Run `python astar.py`.
 3.For [Dijkstra]:
-- Run `python dijkstra.py`.
+- Run `python dijkstra.py`.   
 4.To use your map:
 - Create a new txt file, and customize your own using '0' and '1'.
 - Substitute the file name with the one you created into this line.
 `with open("failedmap.txt") as text:`   
 5.To change the start and goal node:
-- Modify these lines below:
+- Modify these lines below:   
 `entrance_node = (row - 4, 1)`   
 `exit_node = (row - 6, col - 2)`   
 6.To obtain a roughly time cost, you need to commit some lines to avoid unnecessary time cost(visualization) as guided in the code.
