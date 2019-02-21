@@ -28,9 +28,9 @@
 1.Install [tkinter]:
 - Run `sudo apt-get install python-tk python3-tk`.   
 2.For [Astar]:
-- Run `python astar`.
+- Run `python astar.py`.
 3.For [Dijkstra]:
-- Run `python dijkstra`.
+- Run `python dijkstra.py`.
 4.To use your map:
 - Create a new txt file, and customize your own using '0' and '1'.
 - Substitute the file name with the one you created into this line.
