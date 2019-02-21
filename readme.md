@@ -46,10 +46,10 @@ dijkstra.py
 ## Screenshots
 
 Here are some screenshots of the results for this project:    
-- For [maze]:   
+- For [maze case]:   
 ![maze case for astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/maze_case_for_astar.png)
 ![maze case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/maze_case_for_dijkstra.png)   
-- For [map]:   
+- For [map case]:   
 ![map case for astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/normal_case_for_astar.png)
 ![map case for dijkstra](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/results/normalmap_case_for_dijkstra.png)
 - For [failed case]
