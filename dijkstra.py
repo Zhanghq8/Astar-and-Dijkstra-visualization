@@ -27,7 +27,7 @@ colors = {5: "red", 4: "green", 3: "yellow", 2: "blue", 1: "black", 0: "white", 
 Opens the maze file and creates tkinter GUI object
 '''
 # load maze or map
-with open("failedmap.txt") as text:
+with open("hard.txt") as text:
     maze = [list(line.strip()) for line in text]
 [col, row] = np.shape(maze)
 
@@ -92,10 +92,10 @@ def dijkstra(maze, start_node, exit_node):
         Comment the following 4 lines if you want to ignore the searching process
         and compute the time cost 
         '''
-        maze[start_node[0]][start_node[1]] = '3'
-        maze[exit_node[0]][exit_node[1]] = '4'
-        draw_canvas(canvas, maze)
-        root.update()
+        # maze[start_node[0]][start_node[1]] = '3'
+        # maze[exit_node[0]][exit_node[1]] = '4'
+        # draw_canvas(canvas, maze)
+        # root.update()
 
         # Find the node with the minimum g value
         min_g = np.min(g)
@@ -185,7 +185,7 @@ def main():
     Define start and goal node. You may change how to define the nodes.
     '''
     entrance_node = (row- 4, 1)
-    exit_node = (row-6, col-2)
+    exit_node = (2, col-2)
 
     '''
     Run your ana_star algorithm function. You may choose to change the function or not use it.
