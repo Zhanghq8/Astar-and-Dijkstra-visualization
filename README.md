@@ -14,7 +14,7 @@
 
 ## Description   
 1.A* algorithm     
-- [astar.py].      
+- [astar.py].   
 2.Dijkstra   
 - [dijkstra].   
 3.Maze or map
