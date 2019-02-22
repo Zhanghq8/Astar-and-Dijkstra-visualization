@@ -27,7 +27,7 @@ colors = {5: "red", 4: "green", 3: "yellow", 2: "blue", 1: "black", 0: "white", 
 Opens the maze file and creates tkinter GUI object
 '''
 # load maze or map
-with open("hard.txt") as text:
+with open("./map/hard.txt") as text:
     maze = [list(line.strip()) for line in text]
 [col, row] = np.shape(maze)
 
