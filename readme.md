@@ -2,15 +2,13 @@
 ## Maintainer
 - [Hanqing Zhang], <<hzhang8@wpi.edu>>, WPI   
 *Note: The pseudo code used in this project is based on Coursera robotic course, and the visualization code template comes from motion planning course(RBE550) of WPI*    
-## Read this first
-- .
 
 ## Dependencies
 
 - ROS Kinetic
 - Ubuntu 16.04
 - Python 3(Python 2)
-- Tkinter package(https://wiki.python.org/moin/TkInter)...
+- Tkinter package(https://wiki.python.org/moin/TkInter)
 
 ## pseudo code
 1. A* pseudo code
