@@ -10,7 +10,13 @@
 - ROS Kinetic
 - Ubuntu 16.04
 - Python 3(Python 2)
-- Tkinter package(https://wiki.python.org/moin/TkInter)
+- Tkinter package(https://wiki.python.org/moin/TkInter)...
+
+## pseudo code
+1. A*
+![Astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/pseudo%20code/ASTAR.png)
+2. Dijkstra's 
+![Dijkstra's](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/pseudo%20code/DIJKSTRA.png)
 
 ## Description   
 1. A* algorithm     
