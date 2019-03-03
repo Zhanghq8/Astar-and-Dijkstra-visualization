@@ -13,9 +13,9 @@
 - Tkinter package(https://wiki.python.org/moin/TkInter)...
 
 ## pseudo code
-1. A*
+1. A* pseudo code
 ![Astar](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/pseudo%20code/ASTAR.png)
-2. Dijkstra's 
+2. Dijkstra's pseudo code
 ![Dijkstra's](https://github.com/Zhanghq8/Astar-and-Dijkstra-visualization/blob/master/pseudo%20code/DIJKSTRA.png)
 
 ## Description   
